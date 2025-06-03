@@ -1,0 +1,1251 @@
+{
+  "lang": "en",
+  "auth": {
+    "common": {
+      "error": "Error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email and we'll send you a link to reset your password",
+      "emailPlaceholder": "Email address",
+      "sending": "Sending...",
+      "sendResetLink": "Send Reset Link",
+      "checkedEmailTitle": "Check Your Email",
+      "checkedEmailDesc": "We've sent a password reset link to {{email}}. Please check your inbox and follow the instructions.",
+      "backToLogin": "Back to Login",
+      "remember": "Remember your password?"
+    },
+    "login": {
+      "welcomeBack": "Welcome Back",
+      "enterCredentials": "Enter your credentials to access your account",
+      "loginFailed": "Login failed",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "forgotPassword": "Forgot password?",
+      "loggingIn": "Logging in...",
+      "login": "Login",
+      "dontHaveAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "errors": {
+        "profileFetchFailed": "Failed to load your profile. Please try again.",
+        "invalidRole": "Account role is missing or invalid. Please contact support.",
+        "profileFetchException": "Error loading your profile. Please try again.",
+        "default": "An error occurred. Please try again.",
+        "profileLoadFail": "Login successful, but failed to load user data.",
+        "missingUser": "Login seemed successful, but user data is missing.",
+        "unexpected": "An unexpected error occurred during login."
+      }
+    },
+    "signup": {
+      "title": "Create an Account",
+      "description": "Enter your details to create your account",
+      "signupFailed": "Sign up failed",
+      "userTypeLabel": "I am a:",
+      "buyer": "Buyer (Looking to hire)",
+      "seller": "Seller (Looking for work)",
+      "fullNamePlaceholder": "Full Name",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "passwordHelper": "Password must be at least 8 characters",
+      "creating": "Creating account...",
+      "signUp": "Sign Up",
+      "successTitle": "Sign Up Successful!",
+      "successDesc": "We've sent you an email to confirm your account. Please check your inbox.",
+      "goToLogin": "Go to Login",
+      "alreadyHaveAccount": "Already have an account?",
+      "logIn": "Log in",
+      "unexpectedError": "An unexpected error occurred"
+    }
+  },
+  "navbar": {
+    "logo": {
+      "alt": "Marketplace Logo"
+    },
+    "links": {
+      "findWorker": "Find Worker",
+      "findServices": "Find Services",
+      "findProjects": "Find Projects",
+      "bonus": "Bonus"
+    },
+    "search": {
+      "placeholder": "Discover more"
+    },
+    "buttons": {
+      "create": "Create"
+    },
+    "language": {
+      "alt": "Select Language"
+    },
+    "account": {
+      "title": "Account",
+      "avatarAlt": "User Avatar",
+      "defaultName": "User",
+      "id": "ID",
+      "copyId": "Copy ID",
+      "copied": "Copied",
+      "darkMode": "Dark Mode",
+      "settings": "Account Settings",
+      "orders": "Orders",
+      "balance": "Balance",
+      "topUp": "Top up",
+      "logout": "Logout"
+    },
+    "support": {
+      "title": "SUPPORT",
+      "helpCenter": "Help Center",
+      "liveChat": "Live chat"
+    },
+    "auth": {
+      "login": "Log In",
+      "freeStart": "Free Start"
+    }
+  },
+  "sidebar": {
+    "about": "About",
+    "editBio": "Edit bio",
+    "bioPlaceholder": "Tell us about yourself...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "navigation": {
+      "home": "Home",
+      "order": "Order",
+      "chat": "Chat",
+      "bonus": "Bonus",
+      "helpCenter": "Help Center"
+    },
+    "comingSoon": {
+      "title": "Coming Soon",
+      "description": "This feature is under development and will be available shortly."
+    }
+  },
+  "audioPlayer": {
+    "toggleVisibility": "Toggle player visibility",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "play": "Play",
+    "pause": "Pause",
+    "previous": "Previous track",
+    "next": "Next track",
+    "volume": "Volume",
+    "playlist": "Playlist",
+    "bookmark": "Bookmark",
+    "duration": {
+      "unknown": "--:--"
+    },
+    "bpm": {
+      "unknown": "-- BPM"
+    },
+    "addedToFavorites": "Added to favorites",
+    "removedFromFavorites": "Removed from favorites"
+  },
+  "home": {
+    "banner": {
+      "rnb": {
+        "title": "R & B Hits",
+        "description": "All mine, Lie again, Petty call me everyday, Out of time, No love, Bad habit, and so much more"
+      },
+      "indie": {
+        "title": "Indie Rock Anthems",
+        "description": "Latest tracks from underground favorites and rising stars. Explore the new sounds."
+      },
+      "jazz": {
+        "title": "Smooth Jazz Grooves",
+        "description": "Relax and unwind with the smoothest jazz tunes. Perfect for a chill evening."
+      }
+    },
+    "sections": {
+      "more": "More",
+      "hotServices": "Hot Services",
+      "hotWorkers": "Hot Workers",
+      "categoryRanking": "Category Ranking",
+      "services": "{{count}} services",
+      "noServices": "No services found",
+      "noWorkers": "No workers found"
+    },
+    "placeholders": {
+      "service": {
+        "title": "Category Placeholder Service",
+        "description": "Placeholder description",
+        "seller": "Music Professional"
+      }
+    }
+  },
+  "worker": {
+    "salary": "Salary",
+    "work": "Work",
+    "special": "Special",
+    "services": {
+      "create": {
+        "page": {
+          "title": "Post Service",
+          "steps": {
+            "terms": "Basic Settings",
+            "submit": "Submit",
+            "review": "Review"
+          }
+        },
+        "step1": {
+          "subject": "Service Title",
+          "subjectPlaceholder": "Enter the service title...",
+          "detail": "Detail",
+          "detailPlaceholder": "Details",
+          "tags": {
+            "label": "Add Tags",
+            "placeholder": "Add tags"
+          },
+          "cancel": "Close",
+          "next": "Next step"
+        },
+        "step2": {
+          "pricing": "Pricing",
+          "leadTime": "Lead Time",
+          "leadTimePlaceholder": "e.g., 7",
+          "additionalServiceName": "Additional Service Name",
+          "additionalServicePlaceholder": "e.g., Extra Revision",
+          "addAdditionalService": "Add Additional Service",
+          "previous": "Previous",
+          "next": "Next",
+          "uploadingFile": "Uploading {{fileName}}...",
+          "chooseFile": "Choose a file or drag & drop it here",
+          "fileTypes": "Audio formats (MP3, WAV, etc.), up to 50 MB.",
+          "browseFiles": "Browse Files",
+          "completed": "Completed"
+        },
+        "step3": {
+          "title": "You will get {{title}}",
+          "details": "Details",
+          "whatsIncluded": "What's Included",
+          "options": "Options",
+          "price": "Price",
+          "leadTime": "Lead Time",
+          "edit": "Edit",
+          "posting": "Posting...",
+          "post": "Post"
+        },
+        "stepper": {
+          "step1": "Worker Terms",
+          "step2": "Submit",
+          "step3": "Review"
+        }
+      }
+    },
+    "profile": {
+      "likeInitiatedToast": "Worker added to your favorites.",
+      "unlikeInitiatedToast": "Worker removed from your favorites.",
+      "about": {
+        "title": "About",
+        "edit": "Edit your bio",
+        "savedTitle": "Profile Updated",
+        "savedDescription": "Your bio has been saved.",
+        "errorTitle": "Update Failed",
+        "errorDescription": "Could not save your bio. Please try again."
+      },
+      "reviews": "{{count}} reviews",
+      "google": "Google Verified",
+      "skills": "Skills",
+      "awards": "Awards",
+      "noBio": "No bio provided.",
+      "contactForPricing": "Contact for pricing",
+      "socialLinksUnavailable": "Social links unavailable",
+      "title": "Worker Profile",
+      "openInNewTab": "Open in new tab",
+      "musicProducer": "Music Producer",
+      "recentReviews": "Recent Reviews",
+      "actions": {
+        "hire": "Hire",
+        "contact": "Contact Me",
+        "touch": "Touch",
+        "cannotHireSelf": "Cannot hire yourself",
+        "cannotMessageSelf": "You cannot message yourself",
+        "message": "Message {{name}}",
+        "cannotMessageSameType": "Workers cannot message other workers"
+      },
+      "error": {
+        "loadFailed": "Failed to load worker profile, please try again."
+      },
+      "page": {
+        "tabs": {
+          "about": "About",
+          "work": "Work",
+          "services": "Services",
+          "reviews": "Reviews"
+        },
+        "work": {
+          "noWork": "No work items to display yet."
+        },
+        "services": {
+          "noServices": "No services offered yet."
+        },
+        "reviews": {
+          "noReviews": "No reviews yet."
+        }
+      },
+      "loadingWorker": "Loading...",
+      "loadingBio": "Loading bio...",
+      "fallbackName": "Worker",
+      "hireInitiatedToast": "Hire Initiated: Proceeding to hire {{name}}.",
+      "errors": {
+        "chatUserProfilesError": "Could not load user profiles. Please log in."
+      },
+      "placeholders": {
+        "specialty": "Next.js & TypeScript Specialist",
+        "reviewerName": "Another Client",
+        "aboutEllipsis": "...",
+        "review1": {
+          "contractTitle": "Contract title text here…",
+          "content": "Great communication, quick turnaround and high-quality delivery. Would definitely work again!"
+        },
+        "review2": {
+          "contractTitle": "Different contract…",
+          "content": "Good work, delivered on time."
+        }
+      },
+      "dummyMusic": {
+        "dreamscape": {
+          "title": "Dreamscape",
+          "remarks": "A dreamy electronic beat"
+        },
+        "pulseRush": {
+          "title": "Pulse Rush",
+          "remarks": "Energetic synth vibes"
+        },
+        "midnightGroove": {
+          "title": "Midnight Groove",
+          "remarks": "Lo-fi ambient track for focus"
+        }
+      },
+      "ratingText": "4.8 (100+)"
+    },
+    "mainContent": {
+      "more": "More",
+      "budget": "Budget",
+      "apply": "Apply",
+      "projects": "Projects",
+      "noProjects": "No recent projects found.",
+      "untitledProject": "Untitled Project",
+      "noDescription": "No description provided."
+    },
+    "sidebar": {
+      "calendar": {
+        "title": "Calendar",
+        "seeAll": "See All",
+        "today": "Today",
+        "events": "events"
+      },
+      "meetings": {
+        "title": "Meetings",
+        "with": "Meeting with {{name}}",
+        "deadline": "Deadline {{date}}",
+        "budget": "${{amount}}",
+        "status": {
+          "submitted": "Submitted",
+          "pending": "Pending",
+          "timeout": "Timeout"
+        },
+        "tabs": {
+          "7days": "7 Days",
+          "15days": "15 Days",
+          "30days": "30 Days"
+        }
+      },
+      "tags": {
+        "title": "Tags",
+        "edit": "Edit tags"
+      },
+      "links": {
+        "title": "Links",
+        "edit": "Edit links"
+      },
+      "navigation": {
+        "home": "Home",
+        "order": "Order",
+        "chat": "Chat",
+        "bonus": "Bonus",
+        "helpCenter": "Help Center"
+      },
+      "comingSoon": {
+        "title": "Coming Soon",
+        "description": "This feature is under development."
+      }
+    }
+  },
+  "project": {
+    "budget": "Budget",
+    "apply": "Apply",
+    "applied": "Applied"
+  },
+  "service": {
+    "error": "Error displaying service",
+    "related": {
+      "noImage": "No Image",
+      "sellerInitial": "S",
+      "rating": "{{rating}} ({{count}}+ reviews)"
+    },
+    "info": {
+      "price": "Price",
+      "sold": "Sold",
+      "deadline": "Deadline",
+      "message": "Message",
+      "hire": "Hire",
+      "opening": "Opening...",
+      "cannotMessageSelf": "Cannot message yourself",
+      "messageSeller": "Send message to seller",
+      "about": "About",
+      "skills": "Skills",
+      "tools": "Tools",
+      "unknownSeller": "Unknown Seller",
+      "noDescription": "No description provided.",
+      "whatsIncluded": "What's Included",
+      "noOptions": "No additional options available for this service.",
+      "noPortfolio": "No other services found for this seller.",
+      "reviewPlaceholder": "This is a placeholder review text. The service was great!",
+      "tabs": {
+        "details": "Details",
+        "options": "Options",
+        "portfolio": "Portfolio",
+        "review": "Review"
+      }
+    },
+    "search": {
+      "placeholder": "Search services...",
+      "leadTime": "Lead time",
+      "days": "{{count}} days",
+      "priceRange": "Price range",
+      "priceRanges": {
+        "low": "$0 - $50",
+        "medium": "$51 - $200",
+        "high": "$201+"
+      },
+      "sortBy": "Sort by",
+      "sortOptions": {
+        "newest": "Newest first",
+        "oldest": "Oldest first",
+        "priceAsc": "Price: low to high",
+        "priceDesc": "Price: high to low"
+      }
+    },
+    "page": {
+      "redirecting": "Redirecting to the service search page..."
+    },
+    "detail": {
+      "page": {
+        "breadcrumb": {
+          "home": "Home",
+          "services": "Find Services"
+        },
+        "title": "You will get {{title}}"
+      }
+    },
+    "card": {
+      "untitled": "Untitled Service",
+      "seller": "Seller",
+      "defaultRating": "{{rating}} ({{count}})"
+    }
+  },
+  "filter": {
+    "remove": "Remove {{label}} filter"
+  },
+  "fileUpload": {
+    "title": "Upload Music",
+    "description": "Select and upload your music files",
+    "chooseFile": "Choose a file or drag & drop it here",
+    "fileTypes": "Audio formats (MP3, WAV, etc.), up to 50 MB.",
+    "or": "OR",
+    "importFromUrl": "Import from URL Link",
+    "pasteUrl": "Paste file URL",
+    "subject": "Subject (Optional)",
+    "question": "Question",
+    "uploading": "Uploading...",
+    "cancel": "Cancel",
+    "upload": "Upload",
+    "errors": {
+      "fileSize": "File size exceeds 50MB limit.",
+      "fileType": "Invalid file type. Please upload an audio file.",
+      "missingFields": "Missing required fields: {{fields}}",
+      "uploadFailed": "Upload failed: {{message}}"
+    },
+    "success": {
+      "title": "Upload Successful",
+      "description": "{{fileName}} has been added to your music library."
+    }
+  },
+  "musicUpload": {
+    "title": "Upload Music",
+    "description": "Select and upload your music files",
+    "chooseFile": "Choose a file or drag & drop it here",
+    "fileTypes": "Audio formats (MP3, WAV, etc.), up to 50 MB.",
+    "or": "OR",
+    "importFromUrl": "Import from URL Link",
+    "pasteUrl": "Paste file URL",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter music title",
+    "remarks": "Remarks (Optional)",
+    "remarksPlaceholder": "Add any remarks about this track...",
+    "tags": {
+      "label": "Add Tags (max. 8)",
+      "placeholder": "Add a tag"
+    },
+    "displayPreferences": "Display Preferences",
+    "displayProfile": "Display on profile",
+    "disableCommenting": "Disable commenting",
+    "uploading": "Uploading...",
+    "cancel": "Cancel",
+    "upload": "Upload",
+    "errors": {
+      "fileSize": "File size exceeds 50MB limit.",
+      "fileType": "Invalid file type. Please upload an audio file.",
+      "missingFields": "Missing required fields: {{fields}}",
+      "uploadFailed": "Upload failed: {{message}}"
+    },
+    "success": {
+      "title": "Upload Successful",
+      "description": "{{fileName}} has been added to your music library."
+    }
+  },
+  "chat": {
+    "title": "Chat",
+    "noChats": "You have no chats yet.",
+    "selectChat": "Select a chat to start messaging.",
+    "consecutiveMessageLimit": "Please wait for the user to respond before sending more messages",
+    "loadingMessages": "Loading messages...",
+    "error": "Error",
+    "online": "Online",
+    "typeMessage": "Type your message...",
+    "send": "Send",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "dateUnknown": "Date Unknown",
+    "dateError": "Date Error",
+    "me": "Me",
+    "user": "User",
+    "closeChat": "Close chat",
+    "moreOptions": "More options",
+    "fileTooLarge": "File is too large. Maximum size is 5MB.",
+    "clickToPlay": "Click to play",
+    "offer": "Offer",
+    "viewOfferDetails": "View Offer Details",
+    "decline": "Decline",
+    "accept": "Accept",
+    "cancel":"Cancel",
+    "edit":"Edit",
+    "declined":"Declined",
+    "accepted":"Accepted",
+    "cancelled":"Cancelled",
+    "failedToCreateContract": "Failed to create contract.",
+    "failedToVerifyBuyerBalance": "Failed to verify buyer balance.",
+    "contractCreated": "Contract created successfully.",
+    "insufficientBalance": "Buyer has insufficent balance to fund the contract. Please contact the buyer..",
+    "jobAlreadyHasContract": "This job already has an ongoing contract.",
+    "milestone": {
+      "completed": "Completed the milestone",
+      "activated": "Activated the milestone",
+      "viewContract": "View Contract"
+    },
+    "yourOfferIncludes": "Your offer includes",
+    "hireRequest": "Hire Request",
+    "view": "View"
+  },
+  "chatDetails": {
+    "selectChat": "Select a chat to view details.",
+    "details": "Details",
+    "contract": "Contract",
+    "contractId": "Contract ID",
+    "startDate": "Start Date",
+    "deadline": "Deadline",
+    "noDeadline": "No deadline set",
+    "amount": "Amount",
+    "files": "Files",
+    "noFiles": "No files found for this contract.",
+    "people": "People",
+    "owner": "Owner",
+    "ownerYou": "Owner (You)",
+    "worker": "Worker",
+    "workerYou": "Worker (You)",
+    "milestones": "Milestones",
+    "noMilestones": "No milestones found for this contract.",
+    "status": "Status",
+    "sendContract": "Send Contract",
+    "viewContract": "View Contract"
+  },
+  "chatList": {
+    "noChats": "You don't have any chats yet.",
+    "justNow": "Just now",
+    "minutesAgo": "{{count}} minute ago",
+    "minutesAgo_plural": "{{count}} minutes ago",
+    "hoursAgo": "{{count}} hour ago",
+    "hoursAgo_plural": "{{count}} hours ago",
+    "daysAgo": "{{count}} day ago",
+    "daysAgo_plural": "{{count}} days ago",
+    "weeksAgo": "{{count}} week ago",
+    "weeksAgo_plural": "{{count}} weeks ago",
+    "monthsAgo": "{{count}} month ago",
+    "monthsAgo_plural": "{{count}} months ago",
+    "yearsAgo": "{{count}} year ago",
+    "yearsAgo_plural": "{{count}} years ago"
+  },
+  "jobs": {
+    "create": {
+      "title": "Create job",
+      "subtitle": "Define details, set the budget",
+      "contentPlaceholder": "Content for {{title}} goes here...",
+      "requiredFields": "Required fields",
+      "stepper": {
+        "sequence": "Transfer Sequence",
+        "trouble": "Having trouble with transfer?",
+        "contact": "Contact",
+        "contactSuccess": {
+          "title": "Support Request Sent",
+          "description": "Our support team will contact you shortly to assist with your request."
+        }
+      },
+      "step1": {
+        "title": "Step 1 Basic",
+        "descriptionPlaceholder": "Description Text Here...",
+        "subject": "Subject",
+        "subjectPlaceholder": "Project subject",
+        "detail": "Detail",
+        "detailPlaceholder": "Details",
+        "amount": "Amount",
+        "deadline": "Deadline (Optional)",
+        "deadlinePlaceholder": "DD / MM / YYYY",
+        "deadlinePastError": "Deadline cannot be in the past",
+        "deadlineFutureError": "Choose a future date",
+        "negotiateBudget": "Negotiate the budget"
+      },
+      "step2": {
+        "title": "Step 2 Skills",
+        "experienceLevels": "Experience Levels",
+        "candidateSources": "Candidate Sources",
+        "files": "Files",
+        "skillLevels": "Skill Levels",
+        "selectSkillLevels": "Select skill levels",
+        "selectCandidateSources": "Select candidate sources",
+        "remove": "Remove",
+        "addDownloadFile": "Add Download File",
+        "fileLimits": "Up to {{maxFiles}} MP3 files, max {{maxSize}}MB each",
+        "fileFormatLimits": "MP3 format and 25 mb size limitations",
+        "uploading": "Uploading...",
+        "upload": "Upload",
+        "uploadingFile": "Uploading {{fileName}}...",
+        "completed": "Completed",
+        "processing": "Processing..."
+      },
+      "step3": {
+        "title": "Step 3 Usage"
+      },
+      "step4": {
+        "title": "Step 4 ORDER AMOUNT & DATE",
+        "deadline": "Deadline",
+        "orderAmount": "Order Amount",
+        "discount": "Discount",
+        "amountPaid": "Amount Paid"
+      },
+      "usage": {
+        "title": "Usage",
+        "private": {
+          "title": "Private",
+          "description": "For purposes such as hobbies and interests."
+        },
+        "business": {
+          "title": "Business",
+          "description": "For purposes such as signing contracts and issuing."
+        },
+        "notSpecified": "Not specified"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "public": {
+          "title": "Public",
+          "description": "Any worker can apply for the job."
+        },
+        "private": {
+          "title": "Private",
+          "description": "Only those who have been invited can take part in the work."
+        },
+        "notSpecified": "Not specified"
+      },
+      "error": "Error",
+      "success": "Success! Your job posting has been created.",
+      "draft": "Draft",
+      "posting": "Posting...",
+      "post": "Post",
+      "previous": "Previous",
+      "next": "Next",
+      "page": {
+        "error": "Error",
+        "success": "Success",
+        "successMessage": "Your job has been created successfully!",
+        "steps": {
+          "basicInfo": "Basic information",
+          "skills": "Skills",
+          "usage": "Usage",
+          "preview": "Preview"
+        }
+      }
+    }
+  },
+  "offers": {
+    "agreement": {
+      "fixedPrice": {
+        "title": "How do fixed-price contracts work?",
+        "description": "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices."
+      },
+      "initiationFee": {
+        "title": "What is a Contract Initiation Fee?",
+        "description": "Fermentum egestas at nunc tristique. Feugiat sodales viverra odio nisi non sem mauris. Nisi at purus habitant dictum etiam mi adipiscing. Congue at arcu aenean vitae aliquam eu tortor viverra id. Habitant sagittis faucibus pharetra odio fames rhoncus pellentesque sem est. Nunc ac eget tellus ultrices."
+      },
+      "terms": {
+        "text": "I agree to the",
+        "terms": "Terms & Conditions",
+        "and": "and",
+        "privacy": "Privacy Policy"
+      }
+    },
+    "attachments": {
+      "noFiles": "No files attached",
+      "attachFile": "Attach File",
+      "fileInput": "Choose files to upload",
+      "removeFile": "Remove file",
+      "errors": {
+        "notLoggedIn": "User not logged in"
+      }
+    },
+    "contractTerms": {
+      "title": "Contract terms",
+      "oneTime": {
+        "title": "One-time payment",
+        "description": "Pay full amount with a single payment."
+      },
+      "installment": {
+        "title": "Installment payment",
+        "description": "Pay full amount with multiple payments."
+      },
+      "learnMore": "Learn More"
+    },
+    "formActions": {
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "sending": "Sending..."
+    },
+    "installment": {
+      "milestone": "Milestone {{number}} Description",
+      "milestoneDescription": "Milestone description",
+      "amount": "Amount",
+      "deadline": "Deadline (Optional)",
+      "datePlaceholder": "DD / MM / YYYY",
+      "addMilestone": "Add milestone",
+      "errors": {
+        "futureDate": "Select a future date"
+      }
+    },
+    "jobDetails": {
+      "title": "Job details",
+      "sendTo": "Send To",
+      "loadingSellers": "Loading sellers...",
+      "selectRecipient": "Select Recipient",
+      "noSellers": "No sellers found",
+      "relatedJob": "Related Job/Order",
+      "loadingJobs": "Loading jobs...",
+      "selectJobTitle": "Select Job/Order Title",
+      "noJobs": "No jobs found",
+      "contractTitle": "Contract title",
+      "contractTitlePlaceholder": "Enter the contract title...",
+      "description": "Description",
+      "descriptionPlaceholder": "Details",
+      "skillLevels": "Skill Levels",
+      "selectSkillLevels": "Select skill levels",
+      "remove": "Remove"
+    },
+    "oneTimePayment": {
+      "amount": "Amount",
+      "deadline": "Deadline (Optional)",
+      "datePlaceholder": "DD / MM / YYYY",
+      "clearDate": "Clear date",
+      "errors": {
+        "futureDate": "Please select a future date."
+      }
+    },
+    "profileSidebar": {
+      "google": "Google",
+      "about": "About",
+      "skills": "Skills",
+      "toolsAndProducts": "Tools / Products",
+      "products": "Products ({{count}})"
+    },
+    "sendOfferForm": {
+      "loading": "Loading form...",
+      "loadingData": "Loading form data...",
+      "error": "Error",
+      "success": "Success",
+      "offerSent": "Offer sent successfully!",
+      "insufficientBalance": "Insufficient balance to send offer"
+    },
+    "send": {
+      "page": {
+        "title": "Send an offer",
+        "loading": "Loading offer form...",
+        "error": "Error loading offer form"
+      }
+    }
+  },
+  "orders": {
+    "contractDetails": {
+      "title": "Details",
+      "contract": "Contract",
+      "deadline": "Deadline"
+    },
+    "financialSummary": {
+      "totalAmount": "Total Amount",
+      "received": "Received",
+      "paid": "Paid",
+      "inEscrow": "In Escrow",
+      "refunded": "Refunded",
+      "milestone": "Milestone",
+      "milestonePrice": "For only $4.99 per month!",
+      "learnMore": "Learn More"
+    },
+    "milestoneSection": {
+      "timeline": "Timeline",
+      "confirming": "Confirming...",
+      "confirmPayment": "Confirm Payment",
+      "milestoneTitle": "Milestone title",
+      "amount": "Amount",
+      "dueDate": "Due Date (Optional)",
+      "saving": "Saving...",
+      "save": "Save",
+      "cancel": "Cancel",
+      "addNewMilestone": "Add a new milestone",
+      "errors": {
+        "addFailed": "Failed to add milestone",
+        "insufficientBalanceMessage": "Buyer has insufficent balance to fund the contract. Please contact the buyer.",
+        "failedToLoadContract": "Failed to load contract. Please try again later.",
+        "balanceCheckFailed": "Failed to check buyer balance. Please try again later.",
+        "contractNotFound": "Contract not found. Please try again later.",
+        "insufficientBalance": "Buyer has insufficent balance to fund the contract. Please contact the buyer."
+      }
+    },
+    "details": {
+      "chatError": "Chat Error",
+      "failedToOpenChat": "Failed to open chat",
+      "actionDenied": "Action Denied",
+      "buyerOnlyConfirm": "Only the buyer can confirm payments",
+      "success": "Success",
+      "milestoneConfirmed": "Milestone payment confirmed!",
+      "error": "Error",
+      "failedToConfirm": "Failed to confirm payment",
+      "sellerOnlyUpload": "Only the seller can upload files",
+      "noFiles": "No Files",
+      "selectFiles": "Please select files to upload",
+      "uploadSuccess": "Upload Successful",
+      "uploadFailed": "Upload Failed",
+      "couldNotUpload": "Could not upload files",
+      "rehireInitiated": "Rehire Initiated",
+      "rehireSuccess": "You have successfully initiated the rehire process for {{name}}",
+      "detail": {
+        "page": {
+          "error": {
+            "session": "Error fetching session or no user logged in",
+            "contractNotFound": "Contract not found",
+            "sellerNotFound": "Seller not found",
+            "buyerNotFound": "Buyer not found"
+          },
+          "loading": {
+            "contract": "Fetching contract details...",
+            "seller": "Fetching seller information...",
+            "buyer": "Fetching buyer information...",
+            "milestones": "Fetching milestones..."
+          }
+        }
+      }
+    },
+    "profile": {
+      "opening": "Opening...",
+      "message": "Message",
+      "rehire": "Rehire"
+    },
+    "workFiles": {
+      "title": "Work File",
+      "chooseFile": "Choose a file or drag & drop it here.",
+      "fileTypes": "JPEG, PNG, PDF, and MP4 formats, up to 50 MB.",
+      "uploading": "Uploading...",
+      "uploadFiles": "Upload {{count}} File(s)",
+      "noFilesBuyer": "No work files have been uploaded yet.",
+      "noFilesSeller": "Upload your work files using the section above.",
+      "download": "Download"
+    },
+    "budget": "Budget",
+    "apply": "Apply",
+    "jobPosting": "Job Posting",
+    "viewDetails": "View Details",
+    "messageWorker": "Message Worker",
+    "messageBuyer": "Message Buyer",
+    "cancelOrder": "Cancel Order",
+    "unknownBuyer": "Unknown Buyer",
+    "milestone": {
+      "title": "Milestone",
+      "description": "For only $4.99 per month!"
+    },
+    "totalAmount": {
+      "title": "Total Amount",
+      "topUp": "Top up",
+      "withdraw": "Withdraw"
+    },
+    "settled": {
+      "title": "Settled"
+    },
+    "inEscrow": {
+      "title": "In Escrow"
+    },
+    "loading": "Loading user...",
+    "loginRequired": "Please log in to view your orders.",
+    "loadingOrders": "Loading orders..."
+  },
+  "projects": {
+    "applicants": {
+      "list": "Applicants",
+      "replacedBy": "Replaced by {{name}}",
+      "hired": "Hired",
+      "view": "view",
+      "noApplicants": "No applicants yet.",
+      "status": {
+        "pending": "",
+        "hired": "Hired",
+        "rejected": ""
+      }
+    },
+    "clientProfile": {
+      "google": "Google"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions"
+    },
+    "details": {
+      "title": "Project Details",
+      "requirements": "Requirements",
+      "skills": "Skills",
+      "link": "Link"
+    },
+    "info": {
+      "budget": "Budget",
+      "releaseTime": "Release time",
+      "deadline": "Deadline",
+      "proposals": "Proposals"
+    },
+    "filters": {
+      "searchPlaceholder": "Search Projects...",
+      "deadline": "Deadline",
+      "today": "Today",
+      "thisWeek": "This Week",
+      "thisMonth": "This Month",
+      "purpose": "Purpose",
+      "business": "Business",
+      "personal": "Personal",
+      "education": "Education",
+      "postingDate": "Posting Date",
+      "last24h": "Last 24h",
+      "lastWeek": "Last Week",
+      "lastMonth": "Last Month"
+    },
+    "search": {
+      "placeholder": "Search...",
+      "deadline": "Deadline",
+      "urgent": "Urgent",
+      "withinWeek": "Within a week",
+      "withinMonth": "Within a month",
+      "purpose": "Purpose",
+      "mixing": "Mixing",
+      "mastering": "Mastering",
+      "songwriting": "Songwriting",
+      "postingDate": "Posting Date",
+      "today": "Today",
+      "last7Days": "Last 7 days",
+      "last30Days": "Last 30 days"
+    },
+    "detail": {
+      "page": {
+        "loading": "Loading project details...",
+        "error": "Error: {{message}}",
+        "notFound": "Project could not be loaded.",
+        "breadcrumbs": {
+          "home": "Home",
+          "findProject": "Find Project",
+          "findWorks": "Find Works",
+          "projectDetail": "Project Detail"
+        },
+        "actions": {
+          "message": "Message",
+          "opening": "Opening...",
+          "apply": "Apply",
+          "applicationSent": "Application Sent: Your application for this project has been submitted successfully."
+        },
+        "chat": {
+          "error": "Error: {{message}}",
+          "profileError": "Could not load user profiles. Please try again later.",
+          "createError": "Failed to find or create chat conversation."
+        }
+      }
+    },
+    "attachments": {
+      "title": "Attachments"
+    }
+  },
+  "filters": {
+    "select": "Select...",
+    "skills": "Skills",
+    "tools": "Tools",
+    "featuredTags": "Featured Tags",
+    "tagIcon": "Tag Icon",
+    "available": "Available",
+    "recentOnline": "Recent Online",
+    "professionalServices": "Professional Services",
+    "vettedSkills": "Vetted skills and expertise",
+    "price": "Price",
+    "budget": "Price",
+    "clear": "Clear",
+    "clearAll": "Clear Filters"
+  },
+  "services": {
+    "search": {
+      "placeholder": "Search services...",
+      "leadTime": "Lead Time",
+      "days": "{{count}} days",
+      "priceRange": "Price Range",
+      "priceRanges": {
+        "low": "$0 - $50",
+        "medium": "$51 - $200",
+        "high": "$201+"
+      },
+      "sortBy": "Sort By",
+      "sortOptions": {
+        "newest": "Newest First",
+        "oldest": "Oldest First",
+        "priceAsc": "Price: Low to High",
+        "priceDesc": "Price: High to Low"
+      },
+      "page": {
+        "loading": "Loading search results...",
+        "tabs": {
+          "service": "Service",
+          "worker": "Worker",
+          "project": "Project"
+        },
+        "pagination": {
+          "previous": "Previous",
+          "next": "Next",
+          "page": "Page {{current}} of {{total}}"
+        },
+        "noResults": {
+          "services": {
+            "title": "No services found",
+            "description": "Try adjusting your search filters"
+          },
+          "workers": {
+            "title": "No workers found",
+            "description": "Try adjusting your search filters"
+          },
+          "projects": {
+            "title": "No projects found",
+            "description": "Try adjusting your search filters"
+          }
+        }
+      }
+    },
+    "page": {
+      "redirecting": "Redirecting to services search page..."
+    }
+  },
+  "workers": {
+    "search": {
+      "placeholder": "Search workers..."
+    }
+  },
+  "settings": {
+    "myServices": {
+      "title": "My Services",
+      "createNew": "Create New Service",
+      "manageSettings": "Manage Settings",
+      "loading": "Loading services...",
+      "noServices": "You haven't created any services yet."
+    },
+    "page": {
+      "title": "Settings",
+      "loading": "Loading settings..."
+    }
+  },
+  "orderSidebar": {
+    "google": "Google",
+    "follow": "Follow",
+    "touch": "Touch",
+    "recentReviews": "Recent reviews",
+    "tags": "Tags",
+    "about": "About"
+  },
+  "ordersSidebar": {
+    "orders": "Orders",
+    "billing": "Billing",
+    "myServices": "My services"
+  },
+  "ordersTable": {
+    "noOrders": "No orders found.",
+    "details": "Details",
+    "finalDeadline": "Final deadline",
+    "proposals": "Proposals",
+    "worker": "Worker",
+    "status": "Status",
+    "from": "From",
+    "rating": "Rating"
+  },
+  "reviewListItem": {
+    "contractTitle": "Contract title text here...",
+    "description": "Working with Ralph on a UX audit for our website was a game-changer. Ralph didn't just identify pain points—he offered innovative solutions that empowered me to make key business decisions with confidence...",
+    "amount": "${{amount}}"
+  },
+  "serviceCard": {
+    "status": {
+      "notPublished": "Not Yet Published",
+      "toBeImproved": "To be improved"
+    },
+    "price": "Price",
+    "orders": "Orders",
+    "salesAmount": "Sales amount",
+    "favorites": "Favorites"
+  },
+  "settingsPage": {
+    "accessDenied": "Access Denied: \"My Services\" is only available for sellers.",
+    "billingComingSoon": "Billing view coming soon..."
+  },
+  "summarySection": {
+    "learnMore": "Learn More"
+  },
+  "tabsFiltersBar": {
+    "tabs": {
+      "all": "All",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "search": {
+      "placeholder": "Search..."
+    },
+    "calendar": {
+      "alt": "Calendar",
+      "selectDate": "Select Date"
+    },
+    "filter": "Filter",
+    "sort": {
+      "label": "Sort by",
+      "dateAsc": "Date Ascending",
+      "dateDesc": "Date Descending",
+      "nameAsc": "Name Ascending"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, {{name}}",
+    "loggedInAs": "You are logged in with the email: {{email}}",
+    "accountInfo": "Account Information",
+    "email": "Email",
+    "userId": "User ID",
+    "fullName": "Full Name",
+    "notSet": "Not set",
+    "lastSignIn": "Last Sign In",
+    "notAvailable": "Not available",
+    "signOut": "Sign Out"
+  },
+  "users": {
+    "profile": {
+      "page": {
+        "error": {
+          "title": "Error",
+          "returnHome": "Return to Home",
+          "notFound": "User not found",
+          "loadFailed": "Failed to load user profile"
+        },
+        "tabs": {
+          "order": "Order",
+          "review": "Review"
+        },
+        "noOrders": "No orders found for this user.",
+        "loading": {
+          "user": "Loading user...",
+          "jobs": "Loading jobs..."
+        },
+        "follow": {
+          "success": "Followed!",
+          "description": "You are now following {{name}}."
+        },
+        "apply": {
+          "success": "Application Sent",
+          "description": "You've successfully applied to \"{{title}}\". The buyer will contact you soon."
+        }
+      },
+      "seller": {
+        "page": {
+          "tabs": {
+            "about": "About",
+            "work": "Work",
+            "services": "Service",
+            "reviews": "Review"
+          },
+          "work": {
+            "title": "Work",
+            "upload": "Upload",
+            "noWork": "No work items uploaded yet."
+          },
+          "services": {
+            "title": "Service",
+            "noServices": "No services offered yet.",
+            "loading": "Loading services..."
+          },
+          "reviews": {
+            "title": "Review",
+            "noReviews": "No reviews yet."
+          },
+          "loading": {
+            "profile": "Loading profile...",
+            "services": "Loading services..."
+          },
+          "error": {
+            "loadFailed": "Failed to load profile.",
+            "servicesFailed": "Failed to load services."
+          },
+          "about": {
+            "noBio": "This seller hasn't added a bio yet."
+          }
+        },
+        "actions": {
+          "follow": "Follow",
+          "touch": "Touch",
+          "hire": "Hire user",
+          "message": "Send message",
+          "cannotHireSelf": "Cannot hire yourself",
+          "cannotMessageSelf": "Cannot message yourself"
+        }
+      },
+      "actions": {
+        "hire": "Hire",
+        "contact": "Contact Me",
+        "touch": "Touch",
+        "cannotHireSelf": "Cannot hire yourself",
+        "cannotMessageSelf": "Cannot message yourself",
+        "message": "Send message",
+        "follow": "Follow"
+      },
+      "followed": "You are now following {{name}}",
+      "unfollowed": "You have unfollowed {{name}}"
+    }
+  },
+  "widgets": {
+    "schedule": {
+      "title": "Calendar",
+      "seeAll": "See All"
+    }
+  },
+  "common": {
+    "close": "Close",
+    "more": "More",
+    "error": "Error"
+  }
+}

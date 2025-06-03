@@ -1,0 +1,1254 @@
+{
+  "lang": "zh",
+  "auth": {
+    "common": {
+      "error": "错误"
+    },
+    "forgotPassword": {
+      "title": "忘记密码",
+      "description": "输入您的电子邮件，我们将发送一个链接来重置您的密码",
+      "emailPlaceholder": "电子邮箱",
+      "sending": "发送中…",
+      "sendResetLink": "发送重置链接",
+      "checkedEmailTitle": "请检查您的邮箱",
+      "checkedEmailDesc": "我们已向 {{email}} 发送了密码重置链接。请检查收件箱并按照说明操作。",
+      "backToLogin": "返回登录",
+      "remember": "记住密码？"
+    },
+    "login": {
+      "welcomeBack": "欢迎回来",
+      "enterCredentials": "请输入您的凭据以访问您的帐户",
+      "loginFailed": "登录失败",
+      "emailPlaceholder": "电子邮箱",
+      "passwordPlaceholder": "密码",
+      "forgotPassword": "忘记密码？",
+      "loggingIn": "正在登录…",
+      "login": "登录",
+      "dontHaveAccount": "还没有帐户？",
+      "signUp": "注册",
+      "errors": {
+        "profileFetchFailed": "加载您的个人资料失败。请重试。",
+        "invalidRole": "帐户角色缺失或无效。请联系支持。",
+        "profileFetchException": "加载您的个人资料时出错。请重试。",
+        "default": "发生错误。请重试。",
+        "profileLoadFail": "登录成功，但加载用户数据失败。",
+        "missingUser": "登录似乎成功，但用户数据丢失。",
+        "unexpected": "登录过程中发生意外错误。"
+      }
+    },
+    "signup": {
+      "title": "创建帐户",
+      "description": "输入您的信息以创建帐户",
+      "signupFailed": "注册失败",
+      "userTypeLabel": "我是：",
+      "buyer": "买家（想要雇佣）",
+      "seller": "卖家（寻找工作）",
+      "fullNamePlaceholder": "全名",
+      "emailPlaceholder": "电子邮箱",
+      "passwordPlaceholder": "密码",
+      "passwordHelper": "密码长度至少为 8 个字符",
+      "creating": "正在创建帐户…",
+      "signUp": "注册",
+      "successTitle": "注册成功！",
+      "successDesc": "我们已向您发送验证电子邮件。请检查收件箱。",
+      "goToLogin": "前往登录",
+      "alreadyHaveAccount": "已有帐户？",
+      "logIn": "登录",
+      "unexpectedError": "发生意外错误"
+    }
+  },
+  "navbar": {
+    "logo": {
+      "alt": "市场标志"
+    },
+    "links": {
+      "findWorker": "寻找工作者",
+      "findServices": "寻找服务",
+      "findProjects": "寻找项目",
+      "bonus": "奖金"
+    },
+    "search": {
+      "placeholder": "发现更多"
+    },
+    "buttons": {
+      "create": "创建"
+    },
+    "language": {
+      "alt": "选择语言"
+    },
+    "account": {
+      "title": "账户",
+      "avatarAlt": "用户头像",
+      "defaultName": "用户",
+      "id": "ID",
+      "copyId": "复制ID",
+      "copied": "已复制",
+      "darkMode": "深色模式",
+      "settings": "账户设置",
+      "orders": "订单",
+      "balance": "余额",
+      "topUp": "充值",
+      "logout": "退出登录"
+    },
+    "support": {
+      "title": "支持",
+      "helpCenter": "帮助中心",
+      "liveChat": "在线聊天"
+    },
+    "auth": {
+      "login": "登录",
+      "freeStart": "免费开始"
+    }
+  },
+  "sidebar": {
+    "about": "关于",
+    "editBio": "编辑简介",
+    "bioPlaceholder": "告诉我们关于你自己...",
+    "cancel": "取消",
+    "save": "保存",
+    "saving": "保存中...",
+    "navigation": {
+      "home": "首页",
+      "order": "订单",
+      "chat": "聊天",
+      "bonus": "奖金",
+      "helpCenter": "帮助中心"
+    },
+    "comingSoon": {
+      "title": "即将推出",
+      "description": "此功能正在开发中，即将推出。"
+    }
+  },
+  "audioPlayer": {
+    "toggleVisibility": "切换播放器显示",
+    "mute": "静音",
+    "unmute": "取消静音",
+    "play": "播放",
+    "pause": "暂停",
+    "previous": "上一首",
+    "next": "下一首",
+    "volume": "音量",
+    "playlist": "播放列表",
+    "bookmark": "书签",
+    "duration": {
+      "unknown": "--:--"
+    },
+    "bpm": {
+      "unknown": "-- BPM"
+    },
+    "addedToFavorites": "已添加到收藏夹",
+    "removedFromFavorites": "已从收藏夹移除"
+  },
+  "home": {
+    "banner": {
+      "rnb": {
+        "title": "R&B 热门歌曲",
+        "description": "All mine, Lie again, Petty call me everyday, Out of time, No love, Bad habit 等更多热门歌曲"
+      },
+      "indie": {
+        "title": "独立摇滚精选",
+        "description": "来自地下音乐人和新星的精选曲目。探索新声音。"
+      },
+      "jazz": {
+        "title": "轻松爵士乐",
+        "description": "放松身心，享受最柔和的爵士乐。完美的休闲夜晚。"
+      }
+    },
+    "sections": {
+      "more": "更多",
+      "hotServices": "热门服务",
+      "hotWorkers": "热门工作者",
+      "categoryRanking": "分类排行",
+      "services": "{{count}} 个服务",
+      "noServices": "未找到服务",
+      "noWorkers": "未找到工作者"
+    },
+    "placeholders": {
+      "service": {
+        "title": "分类占位服务",
+        "description": "占位描述",
+        "seller": "音乐专业人士"
+      }
+    }
+  },
+  "worker": {
+    "salary": "薪资",
+    "work": "工作",
+    "special": "特长",
+    "services": {
+      "create": {
+        "page": {
+          "title": "发布服务",
+          "steps": {
+            "terms": "基本设置",
+            "submit": "提交",
+            "review": "审核"
+          }
+        },
+        "step1": {
+          "subject": "服务标题",
+          "subjectPlaceholder": "输入服务标题...",
+          "detail": "详情",
+          "detailPlaceholder": "详情",
+          "tags": {
+            "label": "添加标签",
+            "placeholder": "添加标签"
+          },
+          "cancel": "关闭",
+          "next": "下一步"
+        },
+        "step2": {
+          "pricing": "定价",
+          "leadTime": "交付时间",
+          "leadTimePlaceholder": "例如：7",
+          "additionalServiceName": "附加服务名称",
+          "additionalServicePlaceholder": "例如：额外修改",
+          "addAdditionalService": "添加附加服务",
+          "previous": "上一步",
+          "next": "下一步",
+          "chooseFile": "选择文件或拖放到此处",
+          "fileTypes": "音频格式（MP3、WAV等），最大50MB。",
+          "browseFiles": "浏览文件",
+          "uploadingFile": "正在上传 {{fileName}}...",
+          "completed": "已完成"
+        },
+        "step3": {
+          "title": "您将获得 {{title}}",
+          "details": "详情",
+          "whatsIncluded": "包含内容",
+          "options": "选项",
+          "price": "价格",
+          "leadTime": "交付时间",
+          "edit": "编辑",
+          "posting": "发布中...",
+          "post": "发布"
+        },
+        "stepper": {
+          "step1": "工作条款",
+          "step2": "提交",
+          "step3": "审核"
+        }
+      }
+    },
+    "profile": {
+      "likeInitiatedToast": "工作者已添加到您的收藏夹。",
+      "unlikeInitiatedToast": "工作者已从您的收藏夹中移除。",
+      "about": {
+        "edit": "编辑个人简介",
+        "title": "个人简介",
+        "savedTitle": "个人简介已更新",
+        "savedDescription": "您的个人简介已保存。",
+        "errorTitle": "更新失败",
+        "errorDescription": "无法保存您的个人简介。请重试。"
+      },
+      "reviews": "{{count}} 条评价",
+      "google": "谷歌认证",
+      "skills": "技能",
+      "awards": "奖项",
+      "noBio": "该用户尚未添加个人简介。",
+      "contactForPricing": "联系询价",
+      "socialLinksUnavailable": "暂无社交链接",
+      "title": "工作者档案",
+      "openInNewTab": "在新标签页中打开",
+      "musicProducer": "音乐制作人",
+      "recentReviews": "最近评价",
+      "actions": {
+        "hire": "雇佣",
+        "contact": "联系我",
+        "touch": "联系",
+        "cannotHireSelf": "不能雇佣自己",
+        "cannotMessageSelf": "不能与自己聊天",
+        "message": "发送消息给 {{name}}",
+        "cannotMessageSameType": "工作者不能与其他工作者聊天"
+      },
+      "error": {
+        "loadFailed": "加载工作者资料失败，请重试。"
+      },
+      "page": {
+        "tabs": {
+          "about": "关于",
+          "work": "作品",
+          "services": "服务",
+          "reviews": "评价"
+        },
+        "work": {
+          "noWork": "暂无作品展示。"
+        },
+        "services": {
+          "noServices": "暂未提供服务。"
+        },
+        "reviews": {
+          "noReviews": "暂无评价。"
+        }
+      },
+      "loadingWorker": "加载中...",
+      "loadingBio": "加载简介中...",
+      "fallbackName": "工作者",
+      "hireInitiatedToast": "已发起雇佣：正在处理雇佣 {{name}}。",
+      "errors": {
+        "chatUserProfilesError": "无法加载用户个人资料。请登录。"
+      },
+      "placeholders": {
+        "specialty": "Next.js 和 TypeScript 专家",
+        "reviewerName": "另一位客户",
+        "aboutEllipsis": "...",
+        "review1": {
+          "contractTitle": "合同标题在此处...",
+          "content": "沟通良好，周转迅速，交付质量高。绝对会再次合作！"
+        },
+        "review2": {
+          "contractTitle": "不同的合同...",
+          "content": "工作出色，按时交付。"
+        }
+      },
+      "dummyMusic": {
+        "dreamscape": {
+          "title": "梦境",
+          "remarks": "梦幻般的电子节拍"
+        },
+        "pulseRush": {
+          "title": "脉冲冲击",
+          "remarks": "充满活力的合成器氛围"
+        },
+        "midnightGroove": {
+          "title": "午夜律动",
+          "remarks": "适合专注的低保真氛围音轨"
+        }
+      },
+      "ratingText": "4.8 (100+)"
+    },
+    "mainContent": {
+      "more": "更多",
+      "budget": "预算",
+      "apply": "申请",
+      "projects": "项目",
+      "noProjects": "未找到最近的项目。",
+      "untitledProject": "未命名项目",
+      "noDescription": "暂无描述。"
+    },
+    "sidebar": {
+      "calendar": {
+        "title": "日历",
+        "seeAll": "查看全部",
+        "today": "今天",
+        "events": "个事件"
+      },
+      "meetings": {
+        "title": "会议",
+        "with": "与 {{name}} 的会议",
+        "deadline": "截止日期 {{date}}",
+        "budget": "${{amount}}",
+        "status": {
+          "submitted": "已提交",
+          "pending": "待处理",
+          "timeout": "已超时"
+        },
+        "tabs": {
+          "7days": "7天",
+          "15days": "15天",
+          "30days": "30天"
+        }
+      },
+      "tags": {
+        "title": "标签",
+        "edit": "编辑标签"
+      },
+      "links": {
+        "title": "链接",
+        "edit": "编辑链接"
+      },
+      "navigation": {
+        "home": "首页",
+        "order": "订单",
+        "chat": "聊天",
+        "bonus": "奖金",
+        "helpCenter": "帮助中心"
+      },
+      "comingSoon": {
+        "title": "即将推出",
+        "description": "此功能正在开发中。"
+      }
+    }
+  },
+  "project": {
+    "budget": "预算",
+    "apply": "申请",
+    "applied": "已申请"
+  },
+  "service": {
+    "error": "显示服务时出错",
+    "related": {
+      "noImage": "无图片",
+      "sellerInitial": "卖",
+      "rating": "{{rating}} ({{count}}+ 评价)"
+    },
+    "info": {
+      "price": "价格",
+      "sold": "已售",
+      "deadline": "截止日期",
+      "message": "发送消息",
+      "hire": "雇佣",
+      "opening": "正在打开...",
+      "cannotMessageSelf": "不能给自己发送消息",
+      "messageSeller": "发送消息给卖家",
+      "about": "关于",
+      "skills": "技能",
+      "tools": "工具",
+      "unknownSeller": "未知卖家",
+      "noDescription": "暂无描述。",
+      "whatsIncluded": "包含内容",
+      "noOptions": "该服务暂无附加选项。",
+      "noPortfolio": "该卖家暂无其他服务。",
+      "reviewPlaceholder": "这是一个评价占位文本。服务很棒！",
+      "tabs": {
+        "details": "详情",
+        "options": "选项",
+        "portfolio": "作品集",
+        "review": "评价"
+      }
+    },
+    "search": {
+      "placeholder": "搜索服务...",
+      "leadTime": "交付时间",
+      "days": "{{count}}天",
+      "priceRange": "价格范围",
+      "priceRanges": {
+        "low": "$0 - $50",
+        "medium": "$51 - $200",
+        "high": "$201+"
+      },
+      "sortBy": "排序方式",
+      "sortOptions": {
+        "newest": "最新优先",
+        "oldest": "最早优先",
+        "priceAsc": "价格从低到高",
+        "priceDesc": "价格从高到低"
+      },
+      "page": {
+        "loading": "正在加载搜索结果..."
+      }
+    },
+    "page": {
+      "redirecting": "正在跳转到服务搜索页面..."
+    },
+    "detail": {
+      "page": {
+        "breadcrumb": {
+          "home": "首页",
+          "services": "查找服务"
+        },
+        "title": "您将获得{{title}}"
+      }
+    },
+    "card": {
+      "untitled": "未命名服务",
+      "seller": "卖家",
+      "defaultRating": "{{rating}} ({{count}})"
+    }
+  },
+  "filter": {
+    "remove": "移除 {{label}} 筛选"
+  },
+  "fileUpload": {
+    "title": "上传音乐",
+    "description": "选择并上传您的音乐文件",
+    "chooseFile": "选择文件或拖放到此处",
+    "fileTypes": "音频格式（MP3、WAV等），最大50MB。",
+    "or": "或",
+    "importFromUrl": "从URL链接导入",
+    "pasteUrl": "粘贴文件URL",
+    "subject": "主题（可选）",
+    "question": "问题",
+    "uploading": "上传中...",
+    "cancel": "取消",
+    "upload": "上传",
+    "errors": {
+      "fileSize": "文件大小超过50MB限制。",
+      "fileType": "无效的文件类型。请上传音频文件。",
+      "missingFields": "缺少必填字段：{{fields}}",
+      "uploadFailed": "上传失败：{{message}}"
+    },
+    "success": {
+      "title": "上传成功",
+      "description": "{{fileName}}已添加到您的音乐库。"
+    }
+  },
+  "musicUpload": {
+    "title": "上传音乐",
+    "description": "选择并上传您的音乐文件",
+    "chooseFile": "选择文件或拖放到此处",
+    "fileTypes": "音频格式（MP3、WAV等），最大50MB。",
+    "or": "或",
+    "importFromUrl": "从URL链接导入",
+    "pasteUrl": "粘贴文件URL",
+    "titleLabel": "标题",
+    "titlePlaceholder": "输入音乐标题",
+    "remarks": "备注（可选）",
+    "remarksPlaceholder": "添加关于此曲目的任何备注...",
+    "tags": {
+      "label": "添加标签（最多8个）",
+      "placeholder": "添加标签"
+    },
+    "displayPreferences": "显示偏好",
+    "displayProfile": "在个人资料中显示",
+    "disableCommenting": "禁用评论",
+    "uploading": "上传中...",
+    "cancel": "取消",
+    "upload": "上传",
+    "errors": {
+      "fileSize": "文件大小超过50MB限制。",
+      "fileType": "无效的文件类型。请上传音频文件。",
+      "missingFields": "缺少必填字段：{{fields}}",
+      "uploadFailed": "上传失败：{{message}}"
+    },
+    "success": {
+      "title": "上传成功",
+      "description": "{{fileName}}已添加到您的音乐库。"
+    }
+  },
+  "chat": {
+    "title": "聊天",
+    "noChats": "您还没有任何聊天。",
+    "selectChat": "选择一个聊天开始对话。",
+    "loadingMessages": "正在加载消息...",
+    "error": "错误",
+    "online": "在线",
+    "typeMessage": "输入消息...",
+    "send": "发送",
+    "today": "今天",
+    "yesterday": "昨天",
+    "dateUnknown": "日期未知",
+    "dateError": "日期错误",
+    "me": "我",
+    "user": "用户",
+    "closeChat": "关闭聊天",
+    "moreOptions": "更多选项",
+    "fileTooLarge": "文件太大。最大大小为5MB。",
+    "clickToPlay": "点击播放",
+    "offer": "报价",
+    "viewOfferDetails": "查看报价详情",
+    "decline": "拒绝",
+    "accept": "接受",
+    "cancel": "取消",
+    "edit": "编辑",
+    "declined": "拒绝",
+    "accepted": "接受",
+    "cancelled": "取消",
+    "failedToCreateContract": "创建合同失败。",
+    "failedToVerifyBuyerBalance": "验证买家余额失败。",
+    "contractCreated": "合同创建成功。",
+    "insufficientBalance": "买家余额不足，无法支付合同。请联系买家。",
+    "jobAlreadyHasContract": "此工作已有一个正在进行中的合同。",
+    "milestone": {
+      "completed": "已完成里程碑",
+      "activated": "已激活里程碑",
+      "viewContract": "查看合同"
+    },
+    "yourOfferIncludes": "您的报价包括",
+    "hireRequest": "雇佣请求",
+    "view": "查看",
+    "consecutiveMessageLimit": "请等待用户回复后再发送更多消息"
+  },
+  "chatDetails": {
+    "selectChat": "选择一个聊天以查看详情。",
+    "details": "详情",
+    "contract": "合同",
+    "contractId": "合同ID",
+    "startDate": "开始日期",
+    "deadline": "截止日期",
+    "noDeadline": "未设置截止日期",
+    "amount": "金额",
+    "files": "文件",
+    "noFiles": "未找到此合同的文件。",
+    "people": "人员",
+    "owner": "所有者",
+    "ownerYou": "所有者（您）",
+    "worker": "工作者",
+    "workerYou": "工作者（您）",
+    "milestones": "里程碑",
+    "noMilestones": "未找到此合同的里程碑。",
+    "status": "状态",
+    "sendContract": "发送合同",
+    "viewContract": "查看合同"
+  },
+  "chatList": {
+    "noChats": "您还没有任何聊天。",
+    "justNow": "刚刚",
+    "minutesAgo": "{{count}}分钟前",
+    "minutesAgo_plural": "{{count}}分钟前",
+    "hoursAgo": "{{count}}小时前",
+    "hoursAgo_plural": "{{count}}小时前",
+    "daysAgo": "{{count}}天前",
+    "daysAgo_plural": "{{count}}天前",
+    "weeksAgo": "{{count}}周前",
+    "weeksAgo_plural": "{{count}}周前",
+    "monthsAgo": "{{count}}个月前",
+    "monthsAgo_plural": "{{count}}个月前",
+    "yearsAgo": "{{count}}年前",
+    "yearsAgo_plural": "{{count}}年前"
+  },
+  "jobs": {
+    "create": {
+      "title": "创建工作",
+      "subtitle": "定义详情，设置预算",
+      "contentPlaceholder": "{{title}}的内容将在这里显示...",
+      "requiredFields": "必填字段",
+      "stepper": {
+        "sequence": "转移顺序",
+        "trouble": "遇到转移问题？",
+        "contact": "联系",
+        "contactSuccess": {
+          "title": "支持请求已发送",
+          "description": "我们的支持团队将很快与您联系以协助您的请求。"
+        }
+      },
+      "step1": {
+        "title": "第1步 基本信息",
+        "descriptionPlaceholder": "描述文本...",
+        "subject": "主题",
+        "subjectPlaceholder": "项目主题",
+        "detail": "详情",
+        "detailPlaceholder": "详情描述",
+        "amount": "金额",
+        "deadline": "截止日期（可选）",
+        "deadlinePlaceholder": "日 / 月 / 年",
+        "deadlinePastError": "截止日期不能是过去的日期",
+        "deadlineFutureError": "请选择未来的日期",
+        "negotiateBudget": "协商预算"
+      },
+      "step2": {
+        "title": "第2步 技能要求",
+        "experienceLevels": "经验水平",
+        "candidateSources": "候选人来源",
+        "files": "文件",
+        "skillLevels": "技能水平",
+        "selectSkillLevels": "选择技能水平",
+        "selectCandidateSources": "选择候选人来源",
+        "remove": "移除",
+        "addDownloadFile": "添加下载文件",
+        "fileLimits": "最多{{maxFiles}}个MP3文件，每个最大{{maxSize}}MB",
+        "fileFormatLimits": "MP3格式和25MB大小限制",
+        "uploading": "上传中...",
+        "upload": "上传",
+        "uploadingFile": "正在上传{{fileName}}...",
+        "completed": "已完成",
+        "processing": "处理中..."
+      },
+      "step3": {
+        "title": "第3步 使用方式"
+      },
+      "step4": {
+        "title": "第4步 订单金额和日期",
+        "deadline": "截止日期",
+        "orderAmount": "订单金额",
+        "discount": "折扣",
+        "amountPaid": "支付金额"
+      },
+      "usage": {
+        "title": "使用方式",
+        "private": {
+          "title": "私人",
+          "description": "用于个人兴趣爱好等用途。"
+        },
+        "business": {
+          "title": "商业",
+          "description": "用于签署合同和发行等商业用途。"
+        },
+        "notSpecified": "未指定"
+      },
+      "privacy": {
+        "title": "隐私",
+        "public": {
+          "title": "公开",
+          "description": "任何工作者都可以申请这份工作。"
+        },
+        "private": {
+          "title": "私密",
+          "description": "只有被邀请的人才能参与工作。"
+        },
+        "notSpecified": "未指定"
+      },
+      "error": "错误",
+      "success": "成功！您的工作发布已创建。",
+      "draft": "草稿",
+      "posting": "发布中...",
+      "post": "发布",
+      "previous": "上一步",
+      "next": "下一步",
+      "page": {
+        "error": "错误",
+        "success": "成功",
+        "successMessage": "您的工作已成功创建！",
+        "steps": {
+          "basicInfo": "基本信息",
+          "skills": "技能要求",
+          "usage": "使用方式",
+          "preview": "预览"
+        }
+      }
+    }
+  },
+  "offers": {
+    "agreement": {
+      "fixedPrice": {
+        "title": "固定价格合同如何运作？",
+        "description": "固定价格合同是一种预先确定总价的合同类型。这意味着无论实际工作花费多少时间，价格都保持不变。这种合同类型适合范围明确、需求清晰的项目。"
+      },
+      "initiationFee": {
+        "title": "什么是合同启动费？",
+        "description": "合同启动费是在项目开始时收取的一笔费用，用于确保双方的承诺并启动项目。这笔费用通常用于支付初始设置、规划和管理成本。"
+      },
+      "terms": {
+        "text": "我同意",
+        "terms": "条款和条件",
+        "and": "和",
+        "privacy": "隐私政策"
+      }
+    },
+    "attachments": {
+      "noFiles": "未附加文件",
+      "attachFile": "附加文件",
+      "fileInput": "选择要上传的文件",
+      "removeFile": "删除文件",
+      "errors": {
+        "notLoggedIn": "用户未登录"
+      }
+    },
+    "contractTerms": {
+      "title": "合同条款",
+      "oneTime": {
+        "title": "一次性付款",
+        "description": "一次性支付全部金额。"
+      },
+      "installment": {
+        "title": "分期付款",
+        "description": "分多次支付全部金额。"
+      },
+      "learnMore": "了解更多"
+    },
+    "formActions": {
+      "cancel": "取消",
+      "continue": "继续",
+      "sending": "发送中..."
+    },
+    "installment": {
+      "milestone": "里程碑 {{number}} 描述",
+      "milestoneDescription": "里程碑描述",
+      "amount": "金额",
+      "deadline": "截止日期（可选）",
+      "datePlaceholder": "日 / 月 / 年",
+      "addMilestone": "添加里程碑",
+      "errors": {
+        "futureDate": "请选择未来的日期"
+      }
+    },
+    "jobDetails": {
+      "title": "工作详情",
+      "sendTo": "发送至",
+      "loadingSellers": "正在加载卖家...",
+      "selectRecipient": "选择接收者",
+      "noSellers": "未找到卖家",
+      "relatedJob": "相关工作/订单",
+      "loadingJobs": "正在加载工作...",
+      "selectJobTitle": "选择工作/订单标题",
+      "noJobs": "未找到工作",
+      "contractTitle": "合同标题",
+      "contractTitlePlaceholder": "输入合同标题...",
+      "description": "描述",
+      "descriptionPlaceholder": "详情",
+      "skillLevels": "技能水平",
+      "selectSkillLevels": "选择技能水平",
+      "remove": "移除"
+    },
+    "oneTimePayment": {
+      "amount": "金额",
+      "deadline": "截止日期（可选）",
+      "datePlaceholder": "日 / 月 / 年",
+      "clearDate": "清除日期",
+      "errors": {
+        "futureDate": "请选择将来的日期。"
+      }
+    },
+    "profileSidebar": {
+      "google": "谷歌",
+      "about": "关于",
+      "skills": "技能",
+      "toolsAndProducts": "工具 / 产品",
+      "products": "产品 ({{count}})"
+    },
+    "sendOfferForm": {
+      "loading": "正在加载表单...",
+      "loadingData": "正在加载表单数据...",
+      "error": "错误",
+      "success": "成功",
+      "offerSent": "报价发送成功！",
+      "insufficientBalance": "余额不足，无法发送报价"
+    },
+    "send": {
+      "page": {
+        "title": "发送报价",
+        "loading": "正在加载报价表单...",
+        "error": "加载报价表单时出错"
+      }
+    }
+  },
+  "orders": {
+    "contractDetails": {
+      "title": "详情",
+      "contract": "合同",
+      "deadline": "截止日期"
+    },
+    "financialSummary": {
+      "totalAmount": "总金额",
+      "received": "已收到",
+      "paid": "已支付",
+      "inEscrow": "托管中",
+      "refunded": "已退款",
+      "milestone": "里程碑",
+      "milestonePrice": "每月仅需 $4.99！",
+      "learnMore": "了解更多"
+    },
+    "milestoneSection": {
+      "timeline": "时间线",
+      "confirming": "确认中...",
+      "confirmPayment": "确认付款",
+      "milestoneTitle": "里程碑标题",
+      "amount": "金额",
+      "dueDate": "截止日期（可选）",
+      "saving": "保存中...",
+      "save": "保存",
+      "cancel": "取消",
+      "addNewMilestone": "添加新里程碑",
+      "errors": {
+        "addFailed": "添加里程碑失败",
+        "insufficientBalanceMessage": "买家余额不足，无法支付合同。请联系买家。",
+        "failedToLoadContract": "无法加载合同。请稍后重试。",
+        "balanceCheckFailed": "无法检查买家余额。请稍后重试。",
+        "contractNotFound": "未找到合同。请稍后重试。",
+        "insufficientBalance": "买家余额不足，无法支付合同。请联系买家。"
+      }
+    },
+    "details": {
+      "chatError": "聊天错误",
+      "failedToOpenChat": "无法打开聊天",
+      "actionDenied": "操作被拒绝",
+      "buyerOnlyConfirm": "只有买家可以确认付款",
+      "success": "成功",
+      "milestoneConfirmed": "里程碑付款已确认！",
+      "error": "错误",
+      "failedToConfirm": "确认付款失败",
+      "sellerOnlyUpload": "只有卖家可以上传文件",
+      "noFiles": "没有文件",
+      "selectFiles": "请选择要上传的文件",
+      "uploadSuccess": "上传成功",
+      "uploadFailed": "上传失败",
+      "couldNotUpload": "无法上传文件",
+      "rehireInitiated": "重新雇佣已启动",
+      "rehireSuccess": "您已成功启动{{name}}的重新雇佣流程"
+    },
+    "profile": {
+      "opening": "正在打开...",
+      "message": "发消息",
+      "rehire": "重新雇佣"
+    },
+    "workFiles": {
+      "title": "工作文件",
+      "chooseFile": "选择文件或拖放到此处",
+      "fileTypes": "JPEG、PNG、PDF和MP4格式，最大50MB",
+      "uploading": "上传中...",
+      "uploadFiles": "上传{{count}}个文件",
+      "noFilesBuyer": "尚未上传任何工作文件",
+      "noFilesSeller": "使用上方区域上传您的工作文件",
+      "download": "下载"
+    },
+    "budget": "预算",
+    "apply": "申请",
+    "jobPosting": "职位发布",
+    "viewDetails": "查看详情",
+    "messageWorker": "联系工作者",
+    "messageBuyer": "联系买家",
+    "cancelOrder": "取消订单",
+    "unknownBuyer": "未知买家",
+    "milestone": {
+      "title": "里程碑",
+      "description": "每月仅需 $4.99！"
+    },
+    "totalAmount": {
+      "title": "总金额",
+      "topUp": "充值",
+      "withdraw": "提现"
+    },
+    "settled": {
+      "title": "已结算"
+    },
+    "inEscrow": {
+      "title": "托管中"
+    },
+    "loading": "正在加载用户...",
+    "loginRequired": "请登录以查看您的订单。",
+    "loadingOrders": "正在加载订单...",
+    "detail": {
+      "page": {
+        "error": {
+          "session": "获取会话失败或用户未登录",
+          "contractNotFound": "未找到合同",
+          "sellerNotFound": "未找到卖家",
+          "buyerNotFound": "未找到买家"
+        },
+        "loading": {
+          "contract": "正在获取合同详情...",
+          "seller": "正在获取卖家信息...",
+          "buyer": "正在获取买家信息...",
+          "milestones": "正在获取里程碑信息..."
+        }
+      }
+    }
+  },
+  "projects": {
+    "applicants": {
+      "list": "申请者",
+      "replacedBy": "已被{{name}}替代",
+      "hired": "已雇佣",
+      "view": "查看",
+      "noApplicants": "暂无申请者",
+      "status": {
+        "pending": "",
+        "hired": "已雇佣",
+        "rejected": ""
+      }
+    },
+    "clientProfile": {
+      "google": "谷歌"
+    },
+    "faq": {
+      "title": "常见问题"
+    },
+    "details": {
+      "title": "项目详情",
+      "requirements": "要求",
+      "skills": "技能",
+      "link": "链接"
+    },
+    "info": {
+      "budget": "预算",
+      "releaseTime": "发布时间",
+      "deadline": "截止日期",
+      "proposals": "提案数"
+    },
+    "filters": {
+      "searchPlaceholder": "搜索项目...",
+      "deadline": "截止日期",
+      "today": "今天",
+      "thisWeek": "本周",
+      "thisMonth": "本月",
+      "purpose": "目的",
+      "business": "商业",
+      "personal": "个人",
+      "education": "教育",
+      "postingDate": "发布日期",
+      "last24h": "最近24小时",
+      "lastWeek": "上周",
+      "lastMonth": "上月"
+    },
+    "search": {
+      "placeholder": "搜索项目...",
+      "deadline": "截止日期",
+      "urgent": "紧急",
+      "withinWeek": "一周内",
+      "withinMonth": "一个月内",
+      "purpose": "目的",
+      "mixing": "混音",
+      "mastering": "母带处理",
+      "songwriting": "歌曲创作",
+      "postingDate": "发布日期",
+      "today": "今天",
+      "last7Days": "最近7天",
+      "last30Days": "最近30天"
+    },
+    "detail": {
+      "page": {
+        "loading": "正在加载项目详情...",
+        "error": "错误：{{message}}",
+        "notFound": "无法加载项目。",
+        "breadcrumbs": {
+          "home": "首页",
+          "findProject": "查找项目",
+          "findWorks": "查找工作",
+          "projectDetail": "项目详情"
+        },
+        "actions": {
+          "message": "发送消息",
+          "opening": "正在打开...",
+          "apply": "申请",
+          "applicationSent": "申请已发送：您对该项目的申请已成功提交。"
+        },
+        "chat": {
+          "error": "错误：{{message}}",
+          "profileError": "无法加载用户资料。请稍后重试。",
+          "createError": "无法找到或创建聊天对话。"
+        }
+      }
+    },
+    "attachments": {
+      "title": "附件"
+    }
+  },
+  "filters": {
+    "select": "选择…",
+    "skills": "技能",
+    "tools": "工具",
+    "featuredTags": "精选标签",
+    "tagIcon": "标签图标",
+    "available": "可用",
+    "recentOnline": "最近在线",
+    "professionalServices": "专业服务",
+    "vettedSkills": "经过审核的技能和专业知识",
+    "price": "价格",
+    "budget": "预算",
+    "clear": "清除",
+    "clearAll": "清除所有筛选"
+  },
+  "services": {
+    "search": {
+      "placeholder": "搜索服务...",
+      "leadTime": "交付时间",
+      "days": "{{count}}天",
+      "priceRange": "价格范围",
+      "priceRanges": {
+        "low": "$0 - $50",
+        "medium": "$51 - $200",
+        "high": "$201+"
+      },
+      "sortBy": "排序方式",
+      "sortOptions": {
+        "newest": "最新优先",
+        "oldest": "最早优先",
+        "priceAsc": "价格从低到高",
+        "priceDesc": "价格从高到低"
+      },
+      "page": {
+        "loading": "正在加载搜索结果…",
+        "tabs": {
+          "service": "服务",
+          "worker": "工作者",
+          "project": "项目"
+        },
+        "pagination": {
+          "previous": "上一页",
+          "next": "下一页",
+          "page": "第 {{current}} 页，共 {{total}} 页"
+        },
+        "noResults": {
+          "services": {
+            "title": "未找到服务",
+            "description": "请尝试调整搜索筛选条件"
+          },
+          "workers": {
+            "title": "未找到工作者",
+            "description": "请尝试调整搜索筛选条件"
+          },
+          "projects": {
+            "title": "未找到项目",
+            "description": "请尝试调整搜索筛选条件"
+          }
+        }
+      }
+    },
+    "page": {
+      "redirecting": "正在跳转到服务搜索页面..."
+    }
+  },
+  "workers": {
+    "search": {
+      "placeholder": "搜索工作者..."
+    }
+  },
+  "settings": {
+    "myServices": {
+      "title": "我的服务",
+      "createNew": "创建新服务",
+      "manageSettings": "管理设置",
+      "loading": "正在加载服务...",
+      "noServices": "您还没有创建任何服务。"
+    },
+    "page": {
+      "title": "设置",
+      "loading": "正在加载设置..."
+    }
+  },
+  "orderSidebar": {
+    "google": "谷歌",
+    "follow": "关注",
+    "touch": "联系",
+    "recentReviews": "最近评价",
+    "tags": "标签",
+    "about": "关于"
+  },
+  "ordersSidebar": {
+    "orders": "订单",
+    "billing": "账单",
+    "myServices": "我的服务"
+  },
+  "ordersTable": {
+    "noOrders": "未找到订单。",
+    "details": "详情",
+    "finalDeadline": "最终截止日期",
+    "proposals": "提案",
+    "worker": "工作者",
+    "status": "状态",
+    "from": "来自",
+    "rating": "评分"
+  },
+  "reviewListItem": {
+    "contractTitle": "合同标题文本...",
+    "description": "与Ralph合作进行网站用户体验审计是一次改变游戏规则的经历。Ralph不仅发现了痛点，还提供了创新的解决方案，使我能够自信地做出关键业务决策...",
+    "amount": "${{amount}}"
+  },
+  "serviceCard": {
+    "status": {
+      "notPublished": "尚未发布",
+      "toBeImproved": "待改进"
+    },
+    "price": "价格",
+    "orders": "订单",
+    "salesAmount": "销售金额",
+    "favorites": "收藏"
+  },
+  "settingsPage": {
+    "accessDenied": "访问被拒绝：\"我的服务\"仅对卖家开放。",
+    "billingComingSoon": "账单视图即将推出..."
+  },
+  "summarySection": {
+    "learnMore": "了解更多"
+  },
+  "tabsFiltersBar": {
+    "tabs": {
+      "all": "全部",
+      "inProgress": "进行中",
+      "completed": "已完成",
+      "active": "活跃",
+      "inactive": "非活跃"
+    },
+    "search": {
+      "placeholder": "搜索..."
+    },
+    "calendar": {
+      "alt": "日历",
+      "selectDate": "选择日期"
+    },
+    "filter": "筛选",
+    "sort": {
+      "label": "排序方式",
+      "dateAsc": "日期升序",
+      "dateDesc": "日期降序",
+      "nameAsc": "名称升序"
+    }
+  },
+  "dashboard": {
+    "title": "控制面板",
+    "welcome": "欢迎，{{name}}",
+    "loggedInAs": "您已使用以下邮箱登录：{{email}}",
+    "accountInfo": "账户信息",
+    "email": "邮箱",
+    "userId": "用户ID",
+    "fullName": "全名",
+    "notSet": "未设置",
+    "lastSignIn": "上次登录",
+    "notAvailable": "不可用",
+    "signOut": "退出登录"
+  },
+  "users": {
+    "profile": {
+      "page": {
+        "error": {
+          "title": "错误",
+          "returnHome": "返回首页",
+          "notFound": "未找到用户",
+          "loadFailed": "加载用户资料失败"
+        },
+        "tabs": {
+          "order": "订单",
+          "review": "评价"
+        },
+        "noOrders": "该用户暂无订单。",
+        "loading": {
+          "user": "正在加载用户...",
+          "jobs": "正在加载工作..."
+        },
+        "follow": {
+          "success": "已关注！",
+          "description": "您已关注{{name}}。"
+        },
+        "apply": {
+          "success": "申请已发送",
+          "description": "您已成功申请\"{{title}}\"。买家将很快与您联系。"
+        }
+      },
+      "seller": {
+        "page": {
+          "tabs": {
+            "about": "关于",
+            "work": "作品",
+            "services": "服务",
+            "reviews": "评价"
+          },
+          "work": {
+            "title": "作品",
+            "upload": "上传",
+            "noWork": "暂无上传的作品。"
+          },
+          "services": {
+            "title": "服务",
+            "noServices": "暂无提供的服务。",
+            "loading": "正在加载服务..."
+          },
+          "reviews": {
+            "title": "评价",
+            "noReviews": "暂无评价。"
+          },
+          "loading": {
+            "profile": "正在加载资料...",
+            "services": "正在加载服务..."
+          },
+          "error": {
+            "loadFailed": "加载资料失败。",
+            "servicesFailed": "加载服务失败。"
+          },
+          "about": {
+            "noBio": "该卖家暂未添加个人简介。"
+          }
+        },
+        "actions": {
+          "follow": "关注",
+          "touch": "联系",
+          "hire": "雇佣用户",
+          "message": "发送消息",
+          "cannotHireSelf": "不能雇佣自己",
+          "cannotMessageSelf": "不能给自己发送消息"
+        }
+      },
+      "actions": {
+        "hire": "雇佣",
+        "contact": "联系",
+        "touch": "联系",
+        "cannotHireSelf": "不能雇佣自己",
+        "cannotMessageSelf": "不能给自己发送消息",
+        "message": "发送消息",
+        "follow": "关注"
+      },
+      "followed": "您已关注{{name}}",
+      "unfollowed": "您已取消关注{{name}}"
+    }
+  },
+  "widgets": {
+    "schedule": {
+      "title": "日历",
+      "seeAll": "查看全部"
+    }
+  },
+  "common": {
+    "close": "关闭",
+    "more": "更多",
+    "error": "错误"
+  }
+}

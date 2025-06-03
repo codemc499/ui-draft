@@ -1,0 +1,111 @@
+- **Expertise**: You are an expert in TypeScript, React, Next.js App Router, Tailwind CSS, and Supabase.
+
+We will use Next.Js as a frontend framework only
+
+- **Code Style and Structure**
+
+  - Write concise, technical TypeScript code with accurate examples.
+  - Use functional and declarative programming patterns; avoid classes.
+  - Prefer iteration and modularization over code duplication.
+  - Use descriptive variable names with auxiliary verbs (e.g., `isLoading`, `hasError`).
+  - Make code and components smaller and structure them properly.
+  - Structure files consistently: exported component first, then subcomponents, helpers, static content, then types.
+
+
+
+- **Naming Conventions**
+
+  - Place all components in `src/components/<feature-or-type>` and name files in kebab-case (e.g., `new-component.tsx`).
+  - Use lowercase with dashes for directories (e.g., `components/auth-wizard`).
+  - Favor named exports for components and utilities.
+
+- **TypeScript Usage**
+
+  - Use TypeScript for all code; prefer `interface` over `type` for object shapes.
+  - Avoid `enum`; instead use lookup maps (`Record<string, T>`) or union types.
+  - Define React components as functions with explicit props interfaces.
+
+- **Syntax and Formatting**
+
+  - Use the `function` keyword for pure functions.
+  - Omit unnecessary curly braces in single-statement conditionals.
+  - Write declarative JSX; avoid imperative logic in markup.
+
+- **UI and Styling**
+
+  - Use Tailwind CSS for all styling, following a mobile-first approach.
+  - Leverage existing components from `src/components/ui` whenever possible.
+
+- **Performance Optimization**
+
+  - Minimize usage of `"use client"`, `useEffect`, and `useState`; favor React Server Components (RSC).
+  - Wrap client components in `Suspense` with fallback UIs.
+  - Dynamically import non-critical components with `next/dynamic`.
+  - Optimize images: use WebP, specify width/height, and enable lazy loading.
+
+- **Key Conventions**
+
+  - Manage URL search parameters using `nuqs`.
+  - Monitor and optimize Web Vitals (LCP, CLS, FID).
+  - Limit `"use client"` directives to small components that require browser APIs.
+  - Follow Next.js App Router docs for data fetching (fetch, caching, RSC vs. CSR).
+  - For placeholder images in seed data, use `https://placekitten.com/`.
+
+- **Project Structure**
+
+  - Root `/src` contains `/app`, `/components`, `/hooks`, `/utils`, `/styles`.
+  - Keep application logic in `/app`; place shared UI in `/components`.
+
+- **Components Organization**
+
+  - **By Type**: forms, buttons, layout, etc.
+  - **By Feature**: for larger domains, group by feature folder containing components, hooks, utils.
+  - Example:
+    ```
+    /src/components
+    ├── ui
+    │   ├── button
+    │   ├── modal
+    │   └── card
+    ├── forms
+    │   ├── text-field
+    │   └── select
+    └── layout
+        ├── navbar
+        └── footer
+    ```
+
+- **Supabase Backend**
+
+  - **Project Setup**:
+    - Install client: `npm install @supabase/supabase-js`.
+    - Store `SUPABASE_URL` and `SUPABASE_ANON_KEY` in environment variables (`.env.local`).
+  - **Client Initialization** (`src/utils/supabase-client.ts`):
+    ```ts
+    import { createClient } from '@supabase/supabase-js';
+    const supabaseUrl = process.env.SUPABASE_URL!;
+    const supabaseKey = process.env.SUPABASE_ANON_KEY!;
+    export const supabase = createClient(supabaseUrl, supabaseKey);
+    ```
+  - **Database Schema & Migrations**:
+    - Define tables with SQL in Supabase dashboard or use `supabase migrate` CLI.
+    - Version your migrations in `/supabase/migrations`.
+  - **Authentication**:
+    - Use Supabase Auth for sign-up/sign-in flows (`supabase.auth.signUp`, `signInWithPassword`).
+    - Leverage `SessionContextProvider` or custom hook `useSupabaseAuth` to access `user` and `session`.
+  - **Using Supabase in Next.js App Router**:
+    - For server components, call `supabase` directly in `async` server actions or `page.tsx` loaders.
+    - For client components, wrap in `"use client"` and use `useEffect` or SWR with `@supabase/supabase-js`.
+  - **Realtime Subscriptions**:
+
+    - Subscribe to table changes: `supabase.from('messages').on('INSERT', handleInsert).subscribe()`.
+    - Clean up subscriptions in `useEffect` cleanup.
+
+  - **Security & Row-Level Security**:
+    - Enable RLS on tables and define policies in Supabase dashboard or with migrations.
+    - Test policies locally with `supabase start --db-only`.
+  - **Best Practices**:
+    - Batch queries when possible to reduce round trips.
+    - Use `select` projections to fetch only needed columns.
+    - Handle errors by checking `error` property on responses.
+    - Paginate large datasets using `.range()` or cursor-based queries.
