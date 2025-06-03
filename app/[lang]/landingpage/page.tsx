@@ -201,7 +201,7 @@ export default function LandingPage() {
         {/* Trust Section */}
         <section className="p-[120px]">
           <SectionTitle>值得信赖的专业服务</SectionTitle>
-          <div className="flex gap-10 my-10">
+          <div className="flex gap-10 my-10 justify-center">
             <TrustCard
               icon="5.gif"
               title="快速免费"
